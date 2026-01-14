@@ -54,6 +54,8 @@
         .nav-links a:hover { color: var(--accent-coral); }
         .nav-contact { font-size: 14px; padding: 10px 20px; background: var(--accent-coral); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.2s; }
         .nav-contact:hover { background: var(--accent-coral-dark); transform: translateY(-1px); }
+        .nav-app {font-size: 14px; padding: 10px 20px;background: transparent;color: var(--text-primary);text-decoration: none;border-radius: 8px;font-weight: 600;border: 1px solid var(--border-light);transition: all 0.2s;margin-right: 12px; /* space before contact button */}
+        .nav-app:hover {border-color: var(--accent-coral);color: var(--accent-coral);transform: translateY(-1px);}
         .hero { min-height: 100vh; display: flex; align-items: center; padding: 120px 40px 80px; background: var(--bg-warm); position: relative; overflow: hidden; }
         .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: radial-gradient(circle at 15% 85%, rgba(255, 107, 53, 0.08) 0%, transparent 45%), radial-gradient(circle at 85% 15%, rgba(42, 157, 143, 0.06) 0%, transparent 45%); }
         .hero::after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px); background-size: 50px 50px; }
@@ -197,6 +199,8 @@
                     <button class="lang-btn active" data-language="en">EN</button>
                     <button class="lang-btn" data-language="bm">BM</button>
                 </div>
+                <a href="https://app.ashcore.co.uk" class="nav-app" data-lang="en">Open App</a>
+                <a href="https://app.ashcore.co.uk" class="nav-app" data-lang="bm">Buka Aplikasi</a>
                 <a href="mailto:ahmadsayfiqhamzi.ml@gmail.com" class="nav-contact" data-lang="en">Get in Touch</a>
                 <a href="mailto:ahmadsayfiqhamzi.ml@gmail.com" class="nav-contact" data-lang="bm">Hubungi Kami</a>
             </div>
